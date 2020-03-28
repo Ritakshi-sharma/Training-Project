@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nanny_project">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,14 +12,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash_Screen">
+        <activity android:name=".BUYER.User_EditProfile" />
+        <activity android:name=".BUYER.Address" />
+        <activity android:name=".BUYER.buyerhome">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".NANI.Change_password" />
+        <activity android:name=".NANI.FAQ" />
+        <activity android:name=".NANI.Edit_profile" />
+        <activity android:name=".NANI.Terms_conditions" />
+        <activity android:name=".NANI.Order" />
+        <activity android:name=".NANI.Payment" />
+        <activity android:name=".NANI.Notification" />
+        <activity
+            android:name=".NANI.NaniHomePage"
+            android:windowSoftInputMode="adjustPan">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".NANI.Verification" />
+        <activity android:name=".NANI.Specialities" />
+        <activity android:name=".NANI.Signin_page" />
+        <activity android:name=".NANI.Signup_page" />
+        <activity android:name=".NANI.Login_Page" />
+        <activity android:name=".NANI.Splash_Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".NANI.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,0 +1,38 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <corners android:radius="10dp" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#FF470E"
+                android:centerColor="#F47952"
+                android:endColor="#FA8D6B"/>
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item
+        android:left="60dp">
+        <!-- left is icon size + 2x side padding around icon-->
+        <!-- 18 + 8 + 8 -->
+        <shape>
+            <solid android:color="@android:color/white" />
+            <corners android:radius="10dp"
+                android:topRightRadius="10dp"
+                android:topLeftRadius="0dp"
+                android:bottomRightRadius="10dp"
+                android:bottomLeftRadius="0dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="10dp" />
+            <solid android:color="@android:color/transparent" />
+
+        </shape>
+    </item>
+</layer-list>

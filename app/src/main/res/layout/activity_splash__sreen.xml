@@ -5,13 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
-<ImageView
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:layout_marginBottom="40dp"
-    android:src="@drawable/loading"
-    android:layout_alignParentBottom="true"/>
+    tools:context=".NANI.MainActivity">
+
+    <com.agrawalsuneet.dotsloader.loaders.CircularDotsLoader
+        android:id="@+id/circular_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="14dp"
+        app:loader_animDur="200"
+        app:loader_bigCircleRadius="30dp"
+        app:loader_circleRadius="8dp"
+        app:loader_defaultColor="@color/colorTransparentWhite"
+        app:loader_firstShadowColor="#7E7E7E"
+        app:loader_secondShadowColor="#696868"
+        app:loader_selectedColor="#696868"
+        app:loader_showRunningShadow="true" />
 
 
 </RelativeLayout>

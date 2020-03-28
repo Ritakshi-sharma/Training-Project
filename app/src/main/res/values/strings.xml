@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Nanny-Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="specialities_prompt">Select your Speciality</string>
+    <string name="allergies_prompt">Select Allergy</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Names</string>
+    <string name="navigation_drawer_open">Navigation drawer open</string>
+    <string name="navigation_drawer_close">Navigation drawer close</string>
+    <string name="legal_terms_conditions"><![CDATA[Legal, Terms & Conditions]]></string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+
+
+    <string-array name="speciality_arrays">
+        <item>Indian Food</item>
+        <item>Baking</item>
+        <item>Home-Made Food</item>
+        <item>Italian</item>
+        <item>Chinese</item>
+        <item>Non-veg </item>
+        <item>South-Indian</item>
+        <item>Punjabi Food</item>
+
+    </string-array>
 </resources>

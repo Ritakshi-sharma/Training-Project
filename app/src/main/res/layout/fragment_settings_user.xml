@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    tools:context=".NANI.Settings_fragment">
+
+    <TextView
+        android:id="@+id/profile_settings"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="10dp"
+        android:text="Profile Settings"
+        android:gravity="center_vertical"
+        android:drawableRight="@drawable/side_arrow"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/terms"
+        android:paddingHorizontal="10dp"
+        android:drawableRight="@drawable/side_arrow"
+        android:background="@drawable/settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="10dp"
+        android:text="@string/legal_terms_conditions"
+        android:gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/faq"
+        android:paddingHorizontal="10dp"
+        android:drawableRight="@drawable/side_arrow"
+        android:background="@drawable/settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="10dp"
+        android:text="FAQs"
+        android:gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>

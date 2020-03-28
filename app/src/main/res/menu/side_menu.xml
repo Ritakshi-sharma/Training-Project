@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/home"
+    android:title="Home"
+    android:icon="@drawable/ic_home_black_24dp"/>
+    <item android:id="@+id/orders"
+        android:title="My Orders"
+        android:icon="@drawable/ic_meal"/>
+
+    <item android:id="@+id/payment"
+        android:title="Payment"
+        android:icon="@drawable/ic_payment_black_24dp"/>
+    <item android:id="@+id/switch_user"
+        android:title="Switch To Buyer"
+        android:icon="@drawable/ic_compare_arrows_black_24dp"/>
+
+
+</menu>

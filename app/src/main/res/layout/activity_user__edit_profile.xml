@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BUYER.User_EditProfile">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:background="@drawable/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_user" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Ritakshi"
+                android:background="@drawable/backgound"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="2dp"
+                android:paddingHorizontal="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="abc@gmail.com"
+                android:background="@drawable/backgound"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="2dp"
+                android:paddingHorizontal="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="+91 8437079298"
+                android:inputType="phone"
+                android:background="@drawable/backgound"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="2dp"
+                android:paddingHorizontal="20dp"/>
+            <TextView
+                android:id="@+id/change_pswduser"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Change Password"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:drawableRight="@drawable/side_arrow"
+                android:background="@drawable/backgound"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="2dp"
+                android:paddingHorizontal="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="SAVE"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_clicked"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
